@@ -9,7 +9,7 @@ export default function Home() {
           LUXURY FASHION HOUSE
         </p>
 
-        <h1 className="text-5xl md:text-7xl font-bold text-yellow-500 mb-6">
+        <h1 className="text-5xl md:text-7xl font-bold text-yellow-400 mb-6">
           HUSSAFA
           <br />
           BOUTIQUE

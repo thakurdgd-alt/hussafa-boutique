@@ -74,6 +74,13 @@ export default function Shop() {
             <button className="bg-yellow-500 text-black px-6 py-2 rounded">
               View Details
             </button>
+              <a
+  href="https://wa.me/447388454498"
+  target="_blank"
+  className="inline-block mt-4 bg-green-600 text-white px-6 py-2 rounded"
+>
+  Order on WhatsApp
+</a>
 
           </div>
         ))}

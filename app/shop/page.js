@@ -82,13 +82,7 @@ export default function Shop() {
 >
   Order on WhatsApp
 </a>
-              <a
-  href="https://wa.me/447388454498"
-  target="_blank"
-  className="inline-block mt-4 bg-green-600 text-white px-6 py-2 rounded"
->
-  Order on WhatsApp
-</a>
+            
 
           </div>
         ))}

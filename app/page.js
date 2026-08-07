@@ -1,6 +1,33 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
+    <nav className="w-full border-b border-yellow-600 py-5 px-8 flex justify-between items-center">
+
+  <h2 className="text-2xl font-bold" style={{color:"#D4AF37"}}>
+    HUSSAFA
+  </h2>
+
+  <div className="flex gap-6 text-white">
+
+    <a href="/" className="hover:text-yellow-500">
+      Home
+    </a>
+
+    <a href="/shop" className="hover:text-yellow-500">
+      Shop
+    </a>
+
+    <a href="#" className="hover:text-yellow-500">
+      About
+    </a>
+
+    <a href="#" className="hover:text-yellow-500">
+      Contact
+    </a>
+
+  </div>
+
+</nav>
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">

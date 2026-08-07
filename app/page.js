@@ -5,7 +5,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
 
-        <p className="text-yellow-500 tracking-[5px] mb-4">
+        <p className="tracking-[5px] mb-4" style={{color:"#D4AF37"}}>
           LUXURY FASHION HOUSE
         </p>
 
@@ -34,7 +34,7 @@ export default function Home() {
       {/* Categories */}
       <section className="py-20 px-8">
 
-        <h2 className="text-4xl text-center text-yellow-500 font-bold mb-12">
+        <h2 className="text-4xl font-bold mb-12" style={{color:"#D4AF37"}}>
           Our Luxury Collection
         </h2>
 

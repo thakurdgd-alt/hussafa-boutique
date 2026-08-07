@@ -32,11 +32,11 @@ export default function Home() {
           together in one place.
         </p>
 
-    <a href="/shop">
-       <button className="bg-yellow-500 text-black px-8 py-3 rounded">
-         Shop Now
-       </button>
-     </a>
+      <a href="/shop">
+        <button className="bg-yellow-500 text-black px-8 py-3 rounded">
+          Shop Now
+        </button>
+      </a>
           
         
       </section>

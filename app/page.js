@@ -3,9 +3,9 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
     <nav className="w-full border-b border-yellow-600 py-5 px-8 flex justify-between items-center">
 
-  <h2 className="text-2xl font-bold" style={{color:"#D4AF37"}}>
+  <h2 className="text-3xl font-bold tracking-wider" style={{color:"#D4AF37"}}>
     HUSSAFA
-  </h2>
+</h2>
 
   <div className="flex gap-8 text-white items-center">
 

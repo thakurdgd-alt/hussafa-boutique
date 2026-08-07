@@ -7,7 +7,25 @@ export default function Home() {
     HUSSAFA
   </h2>
 
-  <div className="flex gap-6 text-white">
+  <div className="flex gap-8 text-white items-center">
+
+  <a href="/" className="hover:text-yellow-500">
+    Home
+  </a>
+
+  <a href="/shop" className="hover:text-yellow-500">
+    Shop
+  </a>
+
+  <a href="#" className="hover:text-yellow-500">
+    About
+  </a>
+
+  <a href="#" className="hover:text-yellow-500">
+    Contact
+  </a>
+
+</div>
 
     <a href="/" className="hover:text-yellow-500">
       Home

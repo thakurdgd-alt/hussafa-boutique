@@ -16,14 +16,18 @@ export default function Home() {
   <a href="/shop" className="hover:text-yellow-500">
     Shop
   </a>
+      
 
-  <a href="#" className="hover:text-yellow-500">
-    About
-  </a>
+  ```jsx
+<a href="/#about" className="hover:text-yellow-500">
+  About
+</a>
 
-  <a href="#" className="hover:text-yellow-500">
-    Contact
-  </a>
+<a href="/#contact" className="hover:text-yellow-500">
+  Contact
+</a>
+```
+
 
 </div>
 

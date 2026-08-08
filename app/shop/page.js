@@ -1,97 +1,143 @@
 export default function Shop() {
-  const categories = [
-    {
-      title: "Luxury Garments",
-      description: "Elegant fashion collections for modern style.",
-      price: "Coming Soon",
-    },
-    {
-      title: "Premium Jewellery",
-      description: "Beautiful jewellery collections with luxury designs.",
-      price: "Coming Soon",
-    },
-    {
-      title: "Luxury Perfumes",
-      description: "Exclusive fragrances for a unique personality.",
-      price: "Coming Soon",
-    },
-  ];
-
   return (
     <main className="min-h-screen bg-black text-white">
 
-      <header className="p-6 border-b border-yellow-600">
-        <h1 className="text-3xl font-bold text-yellow-500 text-center">
-          HUSSAFA BOUTIQUE
+      {/* Navigation */}
+      <nav className="border-b border-yellow-600/30 bg-black">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+
+          <a
+            href="/"
+            className="text-2xl font-bold tracking-[4px] text-yellow-500"
+          >
+            HUSSAFA
+          </a>
+
+          <div className="flex gap-6 text-sm md:gap-8 md:text-base">
+            <a href="/" className="transition hover:text-yellow-500">
+              Home
+            </a>
+
+            <a href="/shop" className="text-yellow-500">
+              Shop
+            </a>
+
+            <a href="/#about" className="transition hover:text-yellow-500">
+              About
+            </a>
+
+            <a href="/#contact" className="transition hover:text-yellow-500">
+              Contact
+            </a>
+          </div>
+
+        </div>
+      </nav>
+
+
+      {/* Shop Header */}
+      <section className="px-6 py-24 text-center">
+
+        <p className="mb-4 tracking-[5px] text-yellow-500">
+          HUSSAFA COLLECTION
+        </p>
+
+        <h1 className="mb-6 text-5xl font-bold text-yellow-500 md:text-6xl">
+          Shop
         </h1>
-      </header>
 
-
-      <section className="text-center py-16 px-6">
-
-        <h2 className="text-4xl font-bold text-yellow-500 mb-4">
-          Our Collection
-        </h2>
-
-        <p className="text-gray-300 max-w-2xl mx-auto">
-          Discover luxury garments, jewellery and fragrances.
-          Our exclusive products will be available soon.
+        <p className="mx-auto max-w-2xl text-gray-400">
+          Discover our carefully selected collection of luxury garments,
+          jewellery and exclusive fragrances.
         </p>
 
       </section>
 
 
-      <section className="grid md:grid-cols-3 gap-8 px-8 pb-16">
+      {/* Products */}
+      <section className="px-6 pb-24">
 
-        {categories.map((item, index) => (
-          <div
-            key={index}
-            className="border border-yellow-600 rounded-lg p-8 text-center hover:bg-gray-900"
-          >
+        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
 
-            <div className="h-40 bg-gray-900 flex items-center justify-center mb-6 rounded">
-              <span className="text-gray-400">
-                Product Image
-              </span>
+          <div className="rounded-2xl border border-yellow-600/50 p-8 text-center">
+            <div className="mb-6 flex h-56 items-center justify-center rounded-xl bg-gray-900 text-6xl">
+              👗
             </div>
 
+            <h2 className="text-2xl font-semibold text-yellow-500">
+              Luxury Garments
+            </h2>
 
-            <h3 className="text-2xl text-yellow-500 mb-3">
-              {item.title}
-            </h3>
-
-
-            <p className="text-gray-300 mb-4">
-              {item.description}
+            <p className="mt-3 text-gray-400">
+              Elegant premium garments for every occasion.
             </p>
 
-
-            <p className="text-yellow-400 font-bold mb-5">
-              {item.price}
-            </p>
-
-
-            <button className="bg-yellow-500 text-black px-6 py-2 rounded">
-              View Details
-            </button>
-
-              <a
-  href="https://wa.me/447388454498?text=Hello%20HUSSAFA%20BOUTIQUE,%20I%20want%20to%20know%20about%20your%20collection."
-  target="_blank"
-  className="inline-block mt-4 bg-green-600 text-white px-6 py-2 rounded"
->
-  Order on WhatsApp
-</a>
-            
-
+            <a
+              href="https://wa.me/447388454498"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block rounded-full bg-green-600 px-6 py-3 font-semibold hover:bg-green-500"
+            >
+              Enquire on WhatsApp
+            </a>
           </div>
-        ))}
+
+
+          <div className="rounded-2xl border border-yellow-600/50 p-8 text-center">
+            <div className="mb-6 flex h-56 items-center justify-center rounded-xl bg-gray-900 text-6xl">
+              💎
+            </div>
+
+            <h2 className="text-2xl font-semibold text-yellow-500">
+              Premium Jewellery
+            </h2>
+
+            <p className="mt-3 text-gray-400">
+              Timeless jewellery with elegant luxury details.
+            </p>
+
+            <a
+              href="https://wa.me/447388454498"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block rounded-full bg-green-600 px-6 py-3 font-semibold hover:bg-green-500"
+            >
+              Enquire on WhatsApp
+            </a>
+          </div>
+
+
+          <div className="rounded-2xl border border-yellow-600/50 p-8 text-center">
+            <div className="mb-6 flex h-56 items-center justify-center rounded-xl bg-gray-900 text-6xl">
+              🌹
+            </div>
+
+            <h2 className="text-2xl font-semibold text-yellow-500">
+              Luxury Perfumes
+            </h2>
+
+            <p className="mt-3 text-gray-400">
+              Exclusive fragrances for a distinctive personality.
+            </p>
+
+            <a
+              href="https://wa.me/447388454498"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block rounded-full bg-green-600 px-6 py-3 font-semibold hover:bg-green-500"
+            >
+              Enquire on WhatsApp
+            </a>
+          </div>
+
+        </div>
 
       </section>
 
 
-      <footer className="border-t border-yellow-600 p-6 text-center text-gray-400">
-        © 2026 HUSSAFA BOUTIQUE
+      {/* Footer */}
+      <footer className="border-t border-yellow-600/40 px-6 py-8 text-center text-gray-500">
+        © 2026 HUSSAFA BOUTIQUE. All rights reserved.
       </footer>
 
     </main>

@@ -1,8 +1,10 @@
+```jsx
 import "./globals.css";
 
 export const metadata = {
   title: "HUSSAFA BOUTIQUE",
-  description: "Luxury Fashion, Jewellery & Fragrances",
+  description:
+    "Luxury fashion, premium garments, jewellery and exclusive fragrances.",
 };
 
 export default function RootLayout({ children }) {
@@ -12,3 +14,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+```

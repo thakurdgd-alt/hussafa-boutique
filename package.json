@@ -1,3 +1,4 @@
+```json
 {
   "name": "hussafa-boutique",
   "version": "1.0.0",
@@ -11,5 +12,11 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "latest",
+    "@tailwindcss/postcss": "latest",
+    "postcss": "latest"
   }
 }
+```

@@ -1,4 +1,4 @@
-{
+}
   "name": "hussafa-boutique",
   "version": "1.0.0",
   "private": true,
@@ -17,4 +17,4 @@
     "tailwindcss": "4.1.11",
     "postcss": "8.5.6"
   }
-}
+{
